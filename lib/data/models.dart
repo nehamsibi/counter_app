@@ -10,12 +10,7 @@ class Counter {
       maxValue: json['max_value'],
     );
   }
-  // factory Counter.fromJson(Map<String, dynamic> json) {
-  //   return Counter(
-  //     value: json['value'] as int?,
-  //     maxValue: json['maxValue'] as int?,
-  //   );
-  // }
+ 
   Map<String, dynamic> toJson() {
     return {
       'value': value,
